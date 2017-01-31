@@ -8,4 +8,9 @@ This will contain a few simple ruby projects to learn the language better!
 2) A stock_picker
 ------------------------
 -Enter in any number of values and the stock picker will work out the most profitable
-day to buy and sell the stocks. 
+day to buy and sell the stocks.
+
+3) SubStrings
+------------------------
+- Takes a sentence and a dictionary, then returns a hash storing how many times each
+dictionary word is present in the sentence.
