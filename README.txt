@@ -14,3 +14,7 @@ day to buy and sell the stocks.
 ------------------------
 - Takes a sentence and a dictionary, then returns a hash storing how many times each
 dictionary word is present in the sentence.
+
+4)Sorting
+----------------------------
+- A simple bubble sort algorithm that will sort an array of numbers in ascending order
