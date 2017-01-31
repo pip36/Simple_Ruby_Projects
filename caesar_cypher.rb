@@ -1,11 +1,10 @@
 def prompt_user
   puts "Enter your secret message: "
   input = gets
-  puts  "Enter the number to shift: (values between -25 and 25)"
+  puts  "Enter the number to shift: "
 
-  shift_amount = gets.to_i
-  shift_amount > -26 && shift_amount < 26 ? caesar_shift(input, shift_amount) : "fail"
-
+  shift_amount = gets.to_i%26
+  caesar_shift(input, shift_amount)
 end
 
 def caesar_shift(message, shift)
