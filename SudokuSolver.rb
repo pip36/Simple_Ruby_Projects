@@ -64,7 +64,12 @@ numarray = [CheckRow(x,y),CheckColumn(x,y),CheckBox(x,y)]
         end
     end
 puts possibleNums
+updateBlock = GridHash.select{|k,v| k.include? (x+y)}.keys()
+print updateBlock
+
+puts GridHash
+
 end
 
 
-SetPossibleValues("I","5")
+SetPossibleValues("A","1")
